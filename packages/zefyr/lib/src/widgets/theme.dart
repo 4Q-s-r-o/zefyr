@@ -341,7 +341,8 @@ class AttributeTheme {
         monospaceFontFamily = 'Roboto Mono';
         break;
       default:
-        throw UnimplementedError('Platform ${theme.platform} not implemented.');
+        //throw UnimplementedError('Platform ${theme.platform} not implemented.');
+        monospaceFontFamily = null;
     }
 
     return AttributeTheme(
